@@ -90,13 +90,16 @@ export default function DocumentationPage() {
                   <pre className="archone-code-block">
                     <code>npm -v</code>
                   </pre>
-                  <p className="archone-rule-description">
-                    If either command is not found, install Node.js first (npm
-                    is included with Node.js).
+                  <pre className="archone-code-block">
+                    <code>git -v</code>
+                  </pre>
+                  <p className="archone-rule-description mt-3">
+                    If either of the three commands is not found, install
+                    Node.js (npm is included with Node.js) and Git.
                   </p>
                   <ul className="archone-prereq-list">
                     <li>
-                      Official installer:{" "}
+                      node/npm Download:{" "}
                       <a
                         href="https://nodejs.org/en/download"
                         target="_blank"
@@ -107,14 +110,27 @@ export default function DocumentationPage() {
                       </a>
                     </li>
                     <li>
-                      npm docs (setup and troubleshooting):{" "}
+                      git Download:{" "}
                       <a
-                        href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm"
+                        href="https://git-scm.com/install/windows"
                         target="_blank"
                         rel="noreferrer"
                         className="archone-doc-link"
                       >
-                        docs.npmjs.com/downloading-and-installing-node-js-and-npm
+                        git-scm.com/install/windows
+                      </a>
+                    </li>
+                    <li>
+                      After downloading and installing Node.js and Git, follow
+                      this youtube video for a quick walkthrough of setting up
+                      your terminal environment:{" "}
+                      <a
+                        href="https://www.youtube.com/watch?v=00om_IzYufU"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="archone-doc-link"
+                      >
+                        https://www.youtube.com/watch?v=00om_IzYufU
                       </a>
                     </li>
                   </ul>
