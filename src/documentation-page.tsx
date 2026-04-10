@@ -168,7 +168,7 @@ export default function DocumentationPage() {
 
               <Card className="rough-corner archone-card">
                 <CardHeader>
-                  <CardTitle>3. Run Your First Scan</CardTitle>
+                  <CardTitle>3. Run Your First Analysis</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="archone-rule-description">
@@ -176,7 +176,7 @@ export default function DocumentationPage() {
                     about code smells and maintainability issues.
                   </p>
                   <pre className="archone-code-block">
-                    <code>archone analyze ./src</code>
+                    <code>archone analyze {"<filename>"}</code>
                   </pre>
                 </CardContent>
               </Card>
