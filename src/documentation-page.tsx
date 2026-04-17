@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -84,6 +85,19 @@ export default function DocumentationPage() {
                     Before installing ArcHone, make sure Node.js and npm are
                     installed on your device.
                   </p>
+
+                  <p className="archone-rule-description mt-3">
+                    If you are using Windows PowerShell, run this once before
+                    installation:
+                  </p>
+                  <pre className="archone-code-block">
+                    <code>
+                      Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+                    </code>
+                  </pre>
+
+                  <Separator className="my-4" />
+
                   <pre className="archone-code-block">
                     <code>node -v</code>
                   </pre>
