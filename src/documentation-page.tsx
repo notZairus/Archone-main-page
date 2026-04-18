@@ -182,7 +182,23 @@ export default function DocumentationPage() {
 
               <Card className="rough-corner archone-card">
                 <CardHeader>
-                  <CardTitle>3. Run Your First Analysis</CardTitle>
+                  <CardTitle>3. Initialize Archone in your machine</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="archone-rule-description">
+                    Run the init command to set up ArcHone in your machine. This
+                    will create a configuration file in your home directory to
+                    store your preferences and settings for ArcHone.
+                  </p>
+                  <pre className="archone-code-block">
+                    <code>archone init</code>
+                  </pre>
+                </CardContent>
+              </Card>
+
+              <Card className="rough-corner archone-card">
+                <CardHeader>
+                  <CardTitle>4. Run Your First Analysis</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="archone-rule-description">
